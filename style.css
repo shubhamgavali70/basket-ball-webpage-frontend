@@ -1,0 +1,72 @@
+body {
+  background: linear-gradient(to right, #ada3a3, #274046);
+  font-family: "Poppins", sans-serif;
+}
+.nav-wrapper {
+  background: linear-gradient(to right, #ada3a3, #274046);
+}
+.mynav {
+  margin-left: 82px;
+}
+.bg1 {
+  background: linear-gradient(to right, #ada3a3, #274046);
+}
+.page-footer {
+  background: linear-gradient(to right, #807777, #1b2b30);
+}
+.footer-copyright {
+  background: linear-gradient(to right, #142024, #142024);
+}
+.img1 {
+  border: oldlace 2px solid;
+  height: 50%;
+  width: 50%;
+  margin-top: 30px;
+  padding: 20px;
+}
+.img2 {
+  border: oldlace 2px solid;
+  height: 50%;
+  width: 50%;
+  position: relative;
+  margin-left: 40%;
+  margin-top: -10%;
+  padding: 20px;
+}
+@media only screen and (max-width: 360px) {
+  .home-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+  }
+  .img1,
+  .img2 {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+
+.videosection,
+.aboutus,
+.faq,
+.contact {
+  margin-top: 100px;
+}
+nav {
+  border: none;
+}
+.slogan {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-weight: bolder;
+  font-size: 100px;
+}
+.btn {
+  background: linear-gradient(to right, #807777, #1b2b30);
+}
